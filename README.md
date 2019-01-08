@@ -15,6 +15,15 @@ b.创建git仓库：git init
 需要合并两个独立启动仓库的历史：git pull origin master --allow-unrelated-history
 7、上传代码：git push -u origin master
 中间可能会让你输入Username和Password，你只要输入github的账号和密码就行了
+如果报错：
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/ThelemeGrand/WebAPI.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+使用：git push -f kzywebapi master（强制推送）
 
 更新代码：
 1、查看当前git仓库状态：git atatus
