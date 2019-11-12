@@ -1,13 +1,13 @@
-# CommitCodeToGitHub
-Using Git To Commit Your Code
+# CommitCodeToGitHub  
+Using Git To Commit Your Code  
 
-上传本地代码：
-1、在Github上创建Repository存储库
-2、为本地Code创建git仓库
-a.cmd->到自己代码的根目录
-b.创建git仓库：git init
-3、将项目的所有文件添加到git仓库中：git add .
-在此添加用户名密码：
+上传本地代码：  
+1、在Github上创建Repository存储库  
+2、为本地Code创建git仓库  
+a.cmd->到自己代码的根目录  
+b.创建git仓库：git init  
+3、将项目的所有文件添加到git仓库中：git add .  
+在此添加用户名密码：  
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 4、提交到git仓库：git commit -m "提交时的注释语句"
