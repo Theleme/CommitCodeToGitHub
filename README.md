@@ -26,7 +26,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 使用：git push -f kzywebapi master（强制推送）
 
 更新代码：
-1、查看当前git仓库状态：git atatus
+1、查看当前git仓库状态：git status
 2、更新全部：git add *
 3、体检更新并更新说明：git commit -m "更新说明"
 4、先pull：git pull
